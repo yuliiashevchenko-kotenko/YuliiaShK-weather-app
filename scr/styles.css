@@ -6,6 +6,7 @@ body {
   margin: 0 auto;
   height: 100%;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
   background: linear-gradient(
       45deg,
       #a5c1da 25%,
@@ -24,8 +25,7 @@ h1 {
   display: block;
   margin: 0 auto;
   color: white;
-
-  font-size: 40px;
+  font-size: 60px;
 }
 ul {
   margin: 0 0 20px;
@@ -54,7 +54,8 @@ a {
   padding: 15px;
   max-width: 900px;
   border-radius: 15px;
-  margin: 0 auto;
+  margin: 20px auto;
+  max-width: 1000px;
 }
 .col-6 {
   line-height: 1.5;
@@ -81,8 +82,7 @@ a {
   font-weight: 300;
   font-size: 90px;
   line-height: 1.5;
-  max-width: 600px;
-  margin: 0 auto;
+  margin: 0 0 0 50px;
 }
 .footer {
   display: flex;
