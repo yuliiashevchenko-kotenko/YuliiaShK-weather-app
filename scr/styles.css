@@ -78,6 +78,14 @@ a {
   top: -36px;
   color: white;
 }
+.units.active.hover {
+  text-decoration: none;
+}
+
+.units.active {
+  color: black;
+}
+
 .weather-icon {
   font-weight: 300;
   font-size: 90px;
