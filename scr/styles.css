@@ -78,13 +78,6 @@ a {
   top: -36px;
   color: white;
 }
-.units.active.hover {
-  text-decoration: none;
-}
-
-.units.active {
-  color: black;
-}
 
 .weather-icon {
   font-weight: 300;
@@ -141,4 +134,11 @@ a {
 .parameters {
   display: block;
   margin: 0 10px 0 80px;
+}
+.parameters .active {
+  color: black;
+  cursor: default;
+}
+.parameters .active.hover {
+  text-decoration: none;
 }
