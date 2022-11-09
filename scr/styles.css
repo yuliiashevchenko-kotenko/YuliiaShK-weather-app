@@ -126,7 +126,7 @@ a {
 }
 .weather-by-days-container {
   color: white;
-  font-size: 34px;
+  font-size: 30px;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -141,4 +141,8 @@ a {
 }
 .parameters .active.hover {
   text-decoration: none;
+}
+
+.weather-temperatures-min {
+  opacity: 0.6;
 }
