@@ -89,6 +89,7 @@ a {
   display: flex;
   height: 50px;
   color: black;
+  font-size: 18px;
 }
 
 .footer .codeby {
@@ -116,14 +117,7 @@ a {
   display: block;
   margin-top: 90px;
 }
-.rectangle {
-  width: 85%;
-  height: 200px;
-  border: 1px solid black;
-  margin: 5px auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+
 .weather-forecast {
   color: white;
   font-size: 30px;
@@ -143,6 +137,6 @@ a {
   text-decoration: none;
 }
 
-.weather-temperatures-min {
+.weather-temperature-min {
   opacity: 0.6;
 }
