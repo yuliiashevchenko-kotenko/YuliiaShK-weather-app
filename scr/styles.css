@@ -133,9 +133,6 @@ a {
   color: black;
   cursor: default;
 }
-.parameters .active.hover {
-  text-decoration: none;
-}
 
 .weather-temperature-min {
   opacity: 0.6;

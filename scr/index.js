@@ -107,9 +107,6 @@ function getForecast(coordinates) {
   axios.get(apiUrl).then(displayForecast);
 }
 
-let fahrenheitLink = document.querySelector("#fahrenheit-link");
-fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
-
 function showParameters(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
